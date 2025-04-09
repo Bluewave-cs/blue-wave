@@ -2,7 +2,7 @@ import React, { Fragment, useRef, useState } from "react";
 import * as Yup from "yup";
 import emailjs from "@emailjs/browser";
 import { Formik, FormikValues, FormikHelpers } from "formik";
-import { Button, Col, Container, Form, Row } from "react-bootstrap";
+import { Col, Container, Form, Row } from "react-bootstrap";
 
 import { ToastContainer, toast } from "react-toastify";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -74,7 +74,7 @@ export const QuoteForm: React.FC = () => {
 
     emailjs
       .send(emailServiceId, emailTemplateId, formData, emailUserId)
-      .then((result) => {
+      .then(() => {
         toast(
           "Send your email correctly, we will contact you as soon as possible.",
           {

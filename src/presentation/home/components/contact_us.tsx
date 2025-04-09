@@ -1,18 +1,9 @@
 import { Card, CardBody, Col, Container, Row } from "react-bootstrap";
 
-// import phoneIcon from "../../../assets/images/phone-icon.png";
-// import contactIcon from "../../../assets/images/contact.png";
-
-// import emailIcon from "../../../assets/images/email-icon.png";
-// import phoneNumberPrimary from "../../../assets/images/phone-number-primary.png";
-// import phoneNumberSecondary from "../../../assets/images/phone-number-secondary.png";
-
 import "../styles/contact_us.css";
 import { Location } from "./location";
-// import { ContactItem } from "./contact_item";
 import EmailIcon from "../../../assets/images/email-blue-icon.png";
 import PhoneIcon from "../../../assets/images/phone-blue-icon.png";
-import PhoneIconVariant from "../../../assets/images/phone-blue-icon-variant.png";
 
 export const ContactUs = () => {
   return (

@@ -6,7 +6,6 @@ import facebookIcon from "../../../assets/images/facebook-icon.png";
 import linkedin from "../../../assets/images/linkedin-icon.png";
 import whatsapIcon from "../../../assets/images/whatsap-icon.png";
 
-import footerLogo from "../../../assets/images/bluewave-footer-logo.png";
 import emailLogo from "../../../assets/images/email-white-icon.png";
 import phoneLogo from "../../../assets/images/phone-white-icon.png";
 

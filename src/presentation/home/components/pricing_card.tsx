@@ -2,7 +2,6 @@ import React from "react";
 import { Card, CardBody, Col, Row } from "react-bootstrap";
 
 import "../styles/pricing_card.css";
-import serviceIcon from "../../../assets/images/service-icon.png";
 
 interface PricingCardProps {
   icon: string;

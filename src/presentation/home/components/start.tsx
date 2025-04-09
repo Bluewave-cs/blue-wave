@@ -1,8 +1,7 @@
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 import "../styles/start.css";
 import mainImage from "../../../assets/images/start-main.png";
-import { CustomButton } from "./button";
 
 export const Start = () => {
   return (

@@ -1,11 +1,13 @@
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import navbarLogo from "../../../assets/images/bluewave-navbar-logo.png";
 
 export const BlueWaveNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home"><img src={navbarLogo} alt="" className="navbar-brand" /></Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src={navbarLogo} alt="" className="navbar-brand" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
