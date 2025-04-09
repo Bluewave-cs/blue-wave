@@ -1,0 +1,24 @@
+.blue-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #152835;
+  font-size: 20px;
+}
+
+.light-blue-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #53b3b7;
+  font-size: 24px;
+}
+
+.service-icon {
+  width: 113px;
+  height: 116px;
+}
+
+.card-container {
+    height: 293px;
+  border-radius: 28px; /* Redondea las esquinas */
+  border: 2px solid #53b3b7; /* Cambia el color del borde */
+}

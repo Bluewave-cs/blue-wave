@@ -1,0 +1,13 @@
+.phone-icon {
+  width: 170px;
+}
+
+.xs-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.md-icon{
+  width: 60px;
+  height: auto;
+}

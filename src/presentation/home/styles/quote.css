@@ -1,0 +1,15 @@
+.quote-section-background {
+  background-image: url("/src/assets/images/quote-form-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.quote-form-image {
+  position: absolute;
+  z-index: 1;
+  width: 525px;
+  margin-top: -60px;
+  margin-left: calc(-100px - 3.5vw);
+}

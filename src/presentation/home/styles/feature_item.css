@@ -1,0 +1,21 @@
+.feature-item {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.feature-title {
+  color: #152835;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.feature-subtitle {
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.feature-icon {
+  width: 120px;
+  height: 120px;
+}

@@ -1,0 +1,121 @@
+.bluewave-title {
+  color: #152835;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bluewave-title-variant {
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bluewave-text {
+  color: #152835;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.bluewave-text-variant {
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.bluewave-section {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.bluewave-section-top-variant {
+  margin-top: 70px;
+}
+
+.card-primary {
+  border: none;
+  border-radius: 28px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.card-secondary {
+  border: none;
+  border-radius: 28px;
+  background-color: #53b3b7;
+  margin-bottom: 20px;
+}
+
+.contact-card {
+  border: none;
+  border-radius: 28px;
+  background-color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.icon-sm {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand{
+  width: 200px;
+  padding: 0px;
+}
+
+.navbar-item{
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+/* 
+.custom-text {
+  font-size: 15vw;
+}
+
+.title-blue {
+}
+
+.title-blue-light {
+  color: #53b3b7;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.text-blue {
+  color: #152835;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.text-light-blue {
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.icon-lg {
+  width: 170px;
+  margin-bottom: 30px;
+}
+
+.icon-md {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+
+
+.card-primary {
+  border: none;
+  border-radius: 28px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+ */

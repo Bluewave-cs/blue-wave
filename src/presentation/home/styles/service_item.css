@@ -1,0 +1,30 @@
+.service-name {
+  color: #152835;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.cleaning-text {
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.service-item {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.separator {
+  height: 2px;
+  background-color: #53b3b7;
+  border: none;
+  opacity: 100;
+  width: 50%;
+  margin: auto;
+}
+
+.service-item-icon{
+  width: 130px;
+  height: 130px;
+}

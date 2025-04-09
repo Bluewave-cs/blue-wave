@@ -1,0 +1,44 @@
+/* Botón base */
+.custom-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #007bff; /* Color del fondo (Bootstrap primary) */
+    border: 1px solid #007bff; /* Color del borde (igual que el fondo) */
+    color: #fff; /* Color del texto */
+    padding: 0.375rem 0.75rem; /* Padding para dar forma al botón */
+    font-size: 1rem; /* Tamaño de la fuente */
+    border-radius: 0.25rem; /* Bordes redondeados */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  /* Botón en hover */
+  .custom-btn:hover {
+    background-color: #0056b3; /* Color de fondo en hover */
+    border-color: #004085; /* Color del borde en hover */
+    text-decoration: none; /* Quitar el subrayado en hover */
+  }
+  
+  /* Botón en foco */
+  .custom-btn:focus {
+    outline: none; /* Quitar el borde de enfoque */
+    box-shadow: 0 0 0 0.25rem rgba(38, 143, 255, 0.5); /* Efecto de sombra en enfoque (similar a Bootstrap) */
+  }
+  
+  /* Botón en estado activo */
+  .custom-btn:active {
+    background-color: #004085; /* Color de fondo en clic */
+    border-color: #003366; /* Color del borde en clic */
+  }
+  
+  /* Botón deshabilitado */
+  .custom-btn:disabled {
+    background-color: #c6c6c6; /* Color de fondo deshabilitado */
+    border-color: #c6c6c6; /* Color del borde deshabilitado */
+    color: #6c757d; /* Color del texto deshabilitado */
+    cursor: not-allowed; /* Cambia el cursor para indicar que está deshabilitado */
+  }
+  

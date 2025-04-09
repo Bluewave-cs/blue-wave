@@ -1,0 +1,65 @@
+.pricing-card {
+  border: none;
+  border-radius: 28px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.pricing-card-title {
+  color: #152835;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.pricing-card-subtitle {
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.service-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.service-description {
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.service-icon {
+  width: 25px;
+  height: 30px;
+}
+
+.tertiary-card {
+  border: none;
+  background-color: #14545e;
+  border-radius: 28px;
+}
+
+.tertiary-card-primary-text {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.tertiary-card-seconday-text {
+  color: #53b3b7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.pricing-card-list-item {
+  color: #767776;
+}
+
+.pricing-card-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}

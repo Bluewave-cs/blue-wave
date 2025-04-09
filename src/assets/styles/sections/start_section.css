@@ -1,0 +1,77 @@
+.start-section-background {
+  background-image: url("/images/blue_wave_background.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.start-section-main-container {
+  height: "100%";
+  max-width: 100%;
+  overflow-wrap: break-word; /* Previene desbordamientos */
+  white-space: normal; /* Permite saltos de línea */
+}
+
+.start-section-business{
+    color: white;
+}
+
+/* Estilo base para pantallas pequeñas (móviles) */
+.start-section-text {
+  color: white;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+
+/* Para pantallas medianas (tabletas) a partir de 768px */
+@media (min-width: 768px) {
+  .start-section-text {
+    color: white;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+  }
+}
+
+/* Para pantallas grandes (computadoras de escritorio) a partir de 1024px */
+@media (min-width: 1024px) {
+  .start-section-text {
+    color: white;
+    line-height: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+  }
+}
+
+/* Estilo base para pantallas pequeñas (móviles) */
+.start-section-important {
+  color: white;
+  font-weight: 700;
+  line-height: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+}
+
+/* Para pantallas medianas (tabletas) a partir de 768px */
+@media (min-width: 768px) {
+  .start-section-important {
+    color: white;
+    font-weight: 700;
+    line-height: 70px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+  }
+}
+
+/* Para pantallas grandes (computadoras de escritorio) a partir de 1024px */
+@media (min-width: 1024px) {
+  .start-section-important {
+    color: white;
+    font-weight: 700;
+    line-height: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6rem;
+  }
+}
