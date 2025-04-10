@@ -18,13 +18,13 @@ export const BlueWaveFooter = () => {
             <h5 className="mb-4 footer-title">About us</h5>
             <p className="mb-4"></p>
             <div>
-              <a href="https://www.facebook.com/profile.php?id=61573938560731">
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=61573938560731">
                 <img src={facebookIcon} alt="" className="footer-icon" />
               </a>
-              <a href="https://www.linkedin.com/company/bluewave-cleaning-services/about/?viewAsMember=true">
+              <a target="_blank" href="https://www.linkedin.com/company/bluewave-cleaning-services/about/?viewAsMember=true">
                 <img src={linkedin} alt="" className="footer-icon" />
               </a>
-              <a href="https://www.instagram.com/bluewave_yyc/">
+              <a target="_blank" href="https://www.instagram.com/bluewave_yyc/">
                 <img src={whatsapIcon} alt="" className="footer-icon" />
               </a>
             </div>
