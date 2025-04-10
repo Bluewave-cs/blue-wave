@@ -37,7 +37,7 @@ export const PricingCard: React.FC<PricingCardProps> = ({
           <div>
             <img
               src={icon}
-              alt=""
+              alt={title}
               className="img-fluid text-center pricing-card-icon"
             />
           </div>

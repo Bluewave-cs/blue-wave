@@ -37,14 +37,7 @@
 .start-main-image {
   margin-top: -150px;
   margin-left: -170px;
-  /* width: 600px; */
   width: 50.27vw; 
-  /* 0.4427 * 100vw */
   position: absolute;
   z-index: 1;
-
-  /* width: 100%;
-  height: auto;
-  object-fit: contain; */
-
 }

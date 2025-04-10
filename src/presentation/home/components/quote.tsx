@@ -24,7 +24,7 @@ export const Quote = () => {
           <Container>
             <Row>
               <Col sm={12} md={12} lg={4} className="d-none d-lg-block">
-                <img className="quote-form-image" src={quoteFormImage} alt="" />
+                <img className="quote-form-image" src={quoteFormImage} alt="Bluewave Cleaning Services" />
               </Col>
               <Col sm={12} md={12} lg={8}>
                 <Card className="contact-card">

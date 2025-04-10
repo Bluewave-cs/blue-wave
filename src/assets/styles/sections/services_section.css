@@ -19,6 +19,6 @@
 
 .card-container {
     height: 293px;
-  border-radius: 28px; /* Redondea las esquinas */
-  border: 2px solid #53b3b7; /* Cambia el color del borde */
+  border-radius: 28px;
+  border: 2px solid #53b3b7;
 }

@@ -36,7 +36,7 @@ export const Start = () => {
             />
           </Col>
           <Col sm={12} md={4} className="d-none d-lg-block">
-            <img className="start-main-image" src={mainImage} alt="" />
+            <img className="start-main-image" src={mainImage} alt="Bluewave Cleaning Services" />
           </Col>
         </Row>
       </Container>

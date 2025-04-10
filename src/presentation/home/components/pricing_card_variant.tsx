@@ -17,7 +17,7 @@ export const PricingCardVariant = () => {
               <div>
                 <img
                   src={airbnbIcon}
-                  alt=""
+                  alt="Bluewave Airbnb Service"
                   className="img-fluid text-center pricing-card-icon"
                 />
               </div>

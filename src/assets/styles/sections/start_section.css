@@ -9,8 +9,8 @@
 .start-section-main-container {
   height: "100%";
   max-width: 100%;
-  overflow-wrap: break-word; /* Previene desbordamientos */
-  white-space: normal; /* Permite saltos de línea */
+  overflow-wrap: break-word;
+  white-space: normal; 
 }
 
 .start-section-business{

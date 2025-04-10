@@ -19,13 +19,13 @@ export const BlueWaveFooter = () => {
             <p className="mb-4"></p>
             <div>
               <a target="_blank" href="https://www.facebook.com/profile.php?id=61573938560731">
-                <img src={facebookIcon} alt="" className="footer-icon" />
+                <img src={facebookIcon} alt="Bluewave Facebook Account" className="footer-icon" />
               </a>
               <a target="_blank" href="https://www.linkedin.com/company/bluewave-cleaning-services/about/?viewAsMember=true">
-                <img src={linkedin} alt="" className="footer-icon" />
+                <img src={linkedin} alt="Bluewave Linkedin Account" className="footer-icon" />
               </a>
               <a target="_blank" href="https://www.instagram.com/bluewave_yyc/">
-                <img src={whatsapIcon} alt="" className="footer-icon" />
+                <img src={whatsapIcon} alt="Bluewave Instragram Account" className="footer-icon" />
               </a>
             </div>
           </Col>
@@ -65,11 +65,11 @@ export const BlueWaveFooter = () => {
             <h5 className="mb-4 footer-title">Contact Info</h5>
             <ul className="ps-0">
               <li>
-                <img src={emailLogo} alt="" className="footer-icon" />
+                <img src={emailLogo} alt="Bluewave email" className="footer-icon" />
                 <p className="footer-text">bluewave.cleanings@gmail.com</p>
               </li>
               <li>
-                <img src={phoneLogo} alt="" className="footer-icon" />
+                <img src={phoneLogo} alt="Bluewave phone number" className="footer-icon" />
                 <p className="footer-text">(825) 365 9214</p>
               </li>
             </ul>
@@ -91,54 +91,3 @@ export const BlueWaveFooter = () => {
     </footer>
   );
 };
-
-/*
-
-   <footer className="footer-container">
-      <Container className="">
-        <Row>
-          <Col md={2}>
-            <img className="img-fluid footer-logo" src={footerLogo} alt="" />
-          </Col>
-          <Col md={10}>
-            <Row className="">
-              <Col sm={12} md={4}>
-                <img
-                  src={emailLogo}
-                  alt="bluewave email"
-                  className="footer-icon"
-                />
-                <p className="footer-text">bluewave.cleanings@gmail.com</p>
-              </Col>
-              <Col md={3}>
-                <img
-                  src={phoneLogo}
-                  alt="bluewave email"
-                  className="footer-icon"
-                />
-                <p className="footer-text">(825) 365 9214</p>
-              </Col>
-              <Col md={3}>
-                <img
-                  src={phoneLogo}
-                  alt="bluewave email"
-                  className="footer-icon"
-                />
-                <p className="footer-text">(825) 561 4392</p>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col md={12}>
-            <p className="text-center footer-text">
-              {" "}
-              © {new Date().getFullYear()} BlueWave. All rights reserved.
-            </p>
-          </Col>
-        </Row>
-      </Container>
-    </footer>
-
-*/
