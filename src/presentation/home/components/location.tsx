@@ -8,7 +8,7 @@ interface LocationProps {
   md: number;
 }
 
-export const Location: React.FC<LocationProps> = ({ name, md, lg}) => {
+export const Location: React.FC<LocationProps> = ({ name }) => {
   return (
     <Col xs={12} sm={12} md={3} lg={3} className="text-center mb-5">
       <img
