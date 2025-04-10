@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-import navbarLogo from "../../../assets/images/bluewave-navbar-logo.png";
+import navbarLogo from "../../../assets/images/logos/bluewave-navbar-logo.png";
 
 export const BlueWaveNavbar = () => {
   return (
@@ -11,12 +11,10 @@ export const BlueWaveNavbar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            {/* <Nav.Link href="#features">Services</Nav.Link> */}
-            <Nav.Link href="#services" className="navbar-item"></Nav.Link>
             <Nav.Link href="#about-us">About us</Nav.Link>
-            <Nav.Link href="#about-us">What's Included</Nav.Link>
-            <Nav.Link href="#about-us">Contact Us</Nav.Link>
-            <Nav.Link href="#about-us">Get A Quote</Nav.Link>
+            <Nav.Link href="#services">What's Included</Nav.Link>
+            <Nav.Link href="#contact-us">Contact Us</Nav.Link>
+            <Nav.Link href="#quote">Get A Quote</Nav.Link>
           </Nav>
           {/* <Nav>
             <Nav.Link href="#deets">More deets</Nav.Link>

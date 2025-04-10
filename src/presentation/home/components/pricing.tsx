@@ -6,9 +6,9 @@ import { postConstructionServices } from "../../../core/constants/post_construct
 import { officeServices } from "../../../core/constants/office_services";
 import { commercialServices } from "../../../core/constants/commercial_services";
 
-import postConstructionIcon from "../../../assets/images/post-construction-cleaning.png";
-import officeIcon from "../../../assets/images/office-cleaning-variant.png";
-import commercialIcon from "../../../assets/images/commercial-cleaning.png";
+import postConstructionIcon from "../../../assets/images/services/post-construction-cleaning.png";
+import officeIcon from "../../../assets/images/services/office-cleaning-variant.png";
+import commercialIcon from "../../../assets/images/services/commercial-cleaning.png";
 
 import lightBackgroundArrowIcon from "../../../assets/images/light-background-arrow.png";
 import darkBackgroundArrowIcon from "../../../assets/images/dark-background-arrow.png";

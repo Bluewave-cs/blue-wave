@@ -2,12 +2,12 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import "../styles/footer.css";
 
-import facebookIcon from "../../../assets/images/facebook-icon.png";
-import linkedin from "../../../assets/images/linkedin-icon.png";
-import whatsapIcon from "../../../assets/images/whatsap-icon.png";
+import facebookIcon from "../../../assets/images/socials/facebook-icon.png";
+import linkedin from "../../../assets/images/socials/linkedin-icon.png";
+import whatsapIcon from "../../../assets/images/socials/whatsap-icon.png";
 
-import emailLogo from "../../../assets/images/email-white-icon.png";
-import phoneLogo from "../../../assets/images/phone-white-icon.png";
+import emailLogo from "../../../assets/images/contact/email-white-icon.png";
+import phoneLogo from "../../../assets/images/contact/phone-white-icon.png";
 
 export const BlueWaveFooter = () => {
   return (
@@ -71,10 +71,6 @@ export const BlueWaveFooter = () => {
               <li>
                 <img src={phoneLogo} alt="" className="footer-icon" />
                 <p className="footer-text">(825) 365 9214</p>
-              </li>
-              <li>
-                <img src={phoneLogo} alt="" className="footer-icon" />
-                <p className="footer-text">(825) 561 4392</p>
               </li>
             </ul>
           </Col>

@@ -28,11 +28,3 @@ export const FeatureItem: React.FC<FeatureItemProps> = ({
     </Col>
   );
 };
-
-/*
-
-<Col sm={12} md={6} className="d-flex justify-content-center">
-        <h1>ABOUT <span>US</span></h1>
-      </Col>
-
-*/

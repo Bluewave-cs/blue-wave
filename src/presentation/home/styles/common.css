@@ -60,12 +60,17 @@
   margin-bottom: 10px;
 }
 
-.navbar-brand{
+.map {
+  width: 350px;
+  height: 350px;
+}
+
+.navbar-brand {
   width: 200px;
   padding: 0px;
 }
 
-.navbar-item{
+.navbar-item {
   color: #53b3b7;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -99,10 +104,6 @@
   font-weight: bold;
 }
 
-.icon-lg {
-  width: 170px;
-  margin-bottom: 30px;
-}
 
 .icon-md {
   width: 120px;

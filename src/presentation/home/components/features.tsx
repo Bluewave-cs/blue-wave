@@ -3,8 +3,9 @@ import { Container, Row } from "react-bootstrap";
 import { FeatureItem } from "./feature_item";
 
 import "../styles/features.css";
-import localtedInCalgary from "../../../assets/images/located-in-calgary.png";
-import fairPrices from "../../../assets/images/fair-prices.png";
+import yearsOfExperience from "../../../assets/images/features/years-of-experience.png";
+import localtedInCalgary from "../../../assets/images/features/located-in-calgary.png";
+import fairPrices from "../../../assets/images/features/fair-pirces.png";
 
 export const Features = () => {
   return (
@@ -13,7 +14,7 @@ export const Features = () => {
         <FeatureItem
           title="3 YEARS"
           subtitle="OF EXPERIENCE"
-          icon={localtedInCalgary}
+          icon={yearsOfExperience}
           iconAlt="3 years of experience"
         />
         <FeatureItem

@@ -3,10 +3,10 @@ import { Card, CardBody, Container, Row } from "react-bootstrap";
 import { ServiceItem } from "./service_item";
 
 import "../styles/services.css";
-import postConstructionIcon from "../../../assets/images/post-construction-cleaning.png";
-import officeIcon from "../../../assets/images/office-cleaning.png";
-import commercialIcon from "../../../assets/images/commercial-cleaning.png";
-import airbnbIcon from "../../../assets/images/airnbn-cleaning.png";
+import postConstructionIcon from "../../../assets/images/services/post-construction-cleaning.png";
+import officeIcon from "../../../assets/images/services/office-cleaning.png";
+import commercialIcon from "../../../assets/images/services/commercial-cleaning.png";
+import airbnbIcon from "../../../assets/images/services/airnbn-cleaning.png";
 
 export const Services = () => {
   return (

@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 
 import "../styles/about_us.css";
-import aboutUs from "../../../assets/images/about-us.png";
+import aboutUs from "../../../assets/images/backgrounds/about-us.png";
 
 export const AboutUs = () => {
   return (
@@ -20,7 +20,7 @@ export const AboutUs = () => {
             md={6}
             className="d-flex flex-column justify-content-center align-items-center"
           >
-            <h1 className=" fs-1 bluewave-title">
+            <h1 className="fs-1 bluewave-title">
               ABOUT <span className="bluewave-title-variant">US</span>
             </h1>
             <p className="fs-5 text-center bluewave-text">

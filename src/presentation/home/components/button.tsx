@@ -6,6 +6,7 @@ interface CustomButtonProps {
   buttonSize?: "sm" | "lg";
   disabled: boolean;
   type: "button" | "submit" | "reset" | undefined;
+  handleClick?: () => void;
 }
 
 export const CustomButton: React.FC<CustomButtonProps> = ({
@@ -13,6 +14,7 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
   buttonSize = "sm",
   disabled,
   type = "button",
+  handleClick,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -22,12 +24,19 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
     minWidth: 150,
   };
 
+  const onClickHandler = () => {
+    if (handleClick) {
+      handleClick();
+    }
+  };
+
   return (
     <Button
       size={buttonSize}
       style={buttonStyle}
       disabled={disabled}
       type={type}
+      onClick={onClickHandler}
       onMouseEnter={() => setIsHovered(true)} // Cambia el estado cuando se pasa el ratón
       onMouseLeave={() => setIsHovered(false)} // Vuelve al estado original cuando se deja de pasar el ratón
     >

@@ -1,129 +1,65 @@
-import { Card, CardBody, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 import "../styles/contact_us.css";
 import { Location } from "./location";
-import EmailIcon from "../../../assets/images/email-blue-icon.png";
-import PhoneIcon from "../../../assets/images/phone-blue-icon.png";
+
+import ContactPhone from "../../../assets/images/contact/contact-phone.png";
+import EmailIcon from "../../../assets/images/contact/email-blue-icon.png";
+import PhoneIcon from "../../../assets/images/contact/phone-blue-icon-variant.png";
+
+import calgaryMap from "../../../assets/images/contact/calgary-map.png";
 
 export const ContactUs = () => {
   return (
     <section>
-      <Container className="bluewave-section">
-        <Row>
-          <Col xs={12}>
-            <h1 className="fs-1 text-center bluewave-title-variant">
-              Contact us today!
-            </h1>
-          </Col>
-        </Row>
-
-        <Row>
-          <Col xs={12} className="text-center">
-            {/* <img className="icon-lg" src={phoneIcon} alt="BlueWave phone" /> */}
-          </Col>
-        </Row>
-        <Row className="mb-3 justify-content-center">
-          <Col sm={12} md={8}>
-            <p className="fs-5 text-center bluewave-text">
-              Now, we’re looking for{" "}
-              <span className="bluewave-text-variant">new clients</span> who
-              believe in us and value reliable, top-tier cleaning. Let us help
-              you keep your space pristine while supporting a small business
-              built on trust and dedication. Give us a chance, and we’ll exceed
-              your expectations!
-            </p>
-          </Col>
-        </Row>
-
+      <Container id="contact-us" className="bluewave-section">
         <Row className="mb-3">
-          <Col md={12}></Col>
-
-          <Col md={12}></Col>
-        </Row>
-
-        <Row className="mb-3">
-          <Col sm={12} md={12} lg={6}>
-            icono
+          <Col
+            className="mb-5 d-flex align-items-center justify-content-center order-2 order-md-1"
+            sm={12}
+            md={12}
+            lg={6}
+          >
+            <img className="map" src={calgaryMap} alt="BlueWave phone" />
           </Col>
-          <Col sm={12} md={12} lg={6} className="">
-            <div className="text-center">
-              {/* <img
-              src={contactIcon}
-              className="icon-md "
-              alt="BlueWave contact"
-            /> */}
-            </div>
-            <Card className="card-secondary">
-              <CardBody className="m-3 p-2 bluewave-text-2">
-                <Row>
-                  <Col
-                    xs={12}
-                    md={2}
-                    className="text-center text-md-end p-3 pb-0"
-                  >
-                    <img
-                      src={EmailIcon}
-                      alt="BlueWave Email Icon"
-                      className="img-fluid xs-icon"
-                    />
-                  </Col>
+          <Col className="mb-5 order-1 order-md-2" sm={12} md={12} lg={6}>
+            <Row className="d-flex flex-column justify-content-center align-items-center text-center mb-3">
+              <img src={ContactPhone} alt="" className="phone-icon" />
+              <h1 className="fs-1 bluewave-title">
+                CALL US <span className="bluewave-title-variant">TODAY!</span>
+              </h1>
+              <p className="fs-5 text-center bluewave-text">
+                We’re looking for new clients
+              </p>
+            </Row>
 
-                  <Col
-                    xs={12}
-                    md={10}
-                    className="text-center text-md-start p-3 ps-md-0"
-                  >
-                    <p className="fs-5 bluewave-text m-0">
-                      bluewave<wbr></wbr>.cleanings<wbr></wbr>@gmail.com
-                    </p>
-                  </Col>
-                </Row>
+            <Row className="row d-flex justify-content-center mb-4">
+              <Col md={2} className="pe-md-0 text-center text-md-end">
+                <img
+                  src={EmailIcon}
+                  alt="BlueWave Email Icon"
+                  className="img-fluid xs-icon mb-2"
+                />
+              </Col>
+              <Col md={8} className="ps-md-3 text-center text-md-start">
+                <p className="fs-5 bluewave-text">
+                  bluewave<wbr></wbr>.cleanings<wbr></wbr>@gmail.com
+                </p>
+              </Col>
+            </Row>
 
-                <Row>
-                  <Col
-                    xs={12}
-                    md={2}
-                    className="text-center text-md-end p-3 pb-0"
-                  >
-                    <img
-                      src={PhoneIcon}
-                      alt="BlueWave Email Icon"
-                      className="img-fluid xs-icon"
-                    />
-                  </Col>
-
-                  <Col
-                    xs={12}
-                    md={10}
-                    className="text-center text-md-start p-3 ps-md-0"
-                  >
-                    <p className="fs-5 bluewave-text m-0">(825) 365 9214</p>
-                  </Col>
-                </Row>
-
-                <Row>
-                  <Col
-                    xs={12}
-                    md={2}
-                    className="text-center text-md-end p-3 pb-0"
-                  >
-                    <img
-                      src={PhoneIcon}
-                      alt="BlueWave Email Icon"
-                      className="img-fluid xs-icon"
-                    />
-                  </Col>
-
-                  <Col
-                    xs={12}
-                    md={10}
-                    className="text-center text-md-start p-3 ps-md-0"
-                  >
-                    <p className="fs-5 bluewave-text m-0">(825) 561 4392</p>
-                  </Col>
-                </Row>
-              </CardBody>
-            </Card>
+            <Row className="row d-flex justify-content-center mb-4">
+              <Col md={2} className="pe-md-0 text-center text-md-end">
+                <img
+                  src={PhoneIcon}
+                  alt="BlueWave Email Icon"
+                  className="img-fluid xs-icon mb-2"
+                />
+              </Col>
+              <Col md={8} className="ps-md-3 text-center text-md-start">
+                <p className="fs-5 bluewave-text m-0">(825) 365 9214</p>
+              </Col>
+            </Row>
           </Col>
         </Row>
 

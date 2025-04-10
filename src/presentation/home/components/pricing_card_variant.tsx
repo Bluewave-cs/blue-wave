@@ -1,6 +1,6 @@
 import { Card, CardBody, Row } from "react-bootstrap";
 import Col from "react-bootstrap/esm/Col";
-import airbnbIcon from "../../../assets/images/airnbn-cleaning.png";
+import airbnbIcon from "../../../assets/images/services/airnbn-cleaning.png";
 
 export const PricingCardVariant = () => {
   return (
