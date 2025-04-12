@@ -4,7 +4,7 @@ import "../styles/footer.css";
 
 import facebookIcon from "../../../assets/images/socials/facebook-icon.png";
 import linkedin from "../../../assets/images/socials/linkedin-icon.png";
-import whatsapIcon from "../../../assets/images/socials/whatsap-icon.png";
+import instagramIcon from "../../../assets/images/socials/instagram-icon.png";
 
 import emailLogo from "../../../assets/images/contact/email-white-icon.png";
 import phoneLogo from "../../../assets/images/contact/phone-white-icon.png";
@@ -25,7 +25,7 @@ export const BlueWaveFooter = () => {
                 <img src={linkedin} alt="Bluewave Linkedin Account" className="footer-icon" />
               </a>
               <a target="_blank" href="https://www.instagram.com/bluewave_yyc/">
-                <img src={whatsapIcon} alt="Bluewave Instragram Account" className="footer-icon" />
+                <img src={instagramIcon} alt="Bluewave Instragram Account" className="footer-icon" />
               </a>
             </div>
           </Col>

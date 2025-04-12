@@ -14,7 +14,7 @@ export const Quote = () => {
           <Row>
             <Col xs={12}>
               <h1 className="fs-1 text-center bluewave-title">
-                GET A <span className="bluewave-title-variant">CUOTE</span>
+                GET A <span className="bluewave-title-variant">QUOTE</span>
               </h1>
             </Col>
           </Row>
