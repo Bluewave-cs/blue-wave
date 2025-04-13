@@ -107,18 +107,6 @@ export const BlueWaveFooter = () => {
           </Col>
         </Row>
 
-        {/* <Row>
-          <Col xs={12}>
-            <hr className="mb-4 footer-text" />
-            <div className="text-center">
-              <p className="mb-0 footer-text">
-                {" "}
-                © {new Date().getFullYear()} BlueWave. All rights reserved.
-              </p>
-            </div>
-          </Col>
-        </Row> */}
-
         <Row className="d-flex justify-content-between align-items-center">
           <hr className="mb-4 footer-text" />
           <Col xs="auto">
