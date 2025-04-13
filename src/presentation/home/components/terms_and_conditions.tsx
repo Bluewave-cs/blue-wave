@@ -1,5 +1,4 @@
 import { Button, Modal } from "react-bootstrap";
-import { CustomButton } from "./button";
 
 interface TermsAndConditionsModalProps {
   show: boolean;
