@@ -24,6 +24,10 @@
   margin-right: 10px;
 }
 
-.footer-list-link{
+.footer-list-link {
   text-decoration: none;
+}
+
+.footer-legal-item {
+  cursor: pointer;
 }
