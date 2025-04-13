@@ -115,8 +115,7 @@ export const BlueWaveFooter = () => {
               © {new Date().getFullYear()} BlueWave. All rights reserved.
             </p>
           </Col>
-
-          {/* Contenedor para los dos elementos alineados a la derecha */}
+          
           <Col xs="auto">
             <div className="d-flex gap-2">
               <p className="mb-0 footer-text">Terms and conditions</p>
