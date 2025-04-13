@@ -17,15 +17,33 @@ export const BlueWaveFooter = () => {
           <Col md={6} lg={4} className="mb-4">
             <h5 className="mb-4 footer-title">About us</h5>
             <p className="mb-4"></p>
-            <div>
-              <a target="_blank" href="https://www.facebook.com/profile.php?id=61573938560731">
-                <img src={facebookIcon} alt="Bluewave Facebook Account" className="footer-icon" />
+            <div className="ps-0">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=61573938560731"
+              >
+                <img
+                  src={facebookIcon}
+                  alt="Bluewave Facebook Account"
+                  className="footer-icon"
+                />
               </a>
-              <a target="_blank" href="https://www.linkedin.com/company/bluewave-cleaning-services/about/?viewAsMember=true">
-                <img src={linkedin} alt="Bluewave Linkedin Account" className="footer-icon" />
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/bluewave-cleaning-services/about/?viewAsMember=true"
+              >
+                <img
+                  src={linkedin}
+                  alt="Bluewave Linkedin Account"
+                  className="footer-icon"
+                />
               </a>
               <a target="_blank" href="https://www.instagram.com/bluewave_yyc/">
-                <img src={instagramIcon} alt="Bluewave Instragram Account" className="footer-icon" />
+                <img
+                  src={instagramIcon}
+                  alt="Bluewave Instragram Account"
+                  className="footer-icon"
+                />
               </a>
             </div>
           </Col>
@@ -34,7 +52,10 @@ export const BlueWaveFooter = () => {
             <h5 className="mb-4 footer-title">BlueWave</h5>
             <ul className="ps-0">
               <li>
-                <a href="#main-services" className="footer-text footer-list-link">
+                <a
+                  href="#main-services"
+                  className="footer-text footer-list-link"
+                >
                   Features
                 </a>
               </li>
@@ -61,22 +82,32 @@ export const BlueWaveFooter = () => {
             </ul>
           </Col>
 
-          <Col md={6} lg={4} className="mb-5">
+          <Col md={6} lg={4} className="mb-4">
             <h5 className="mb-4 footer-title">Contact Info</h5>
             <ul className="ps-0">
               <li>
-                <img src={emailLogo} alt="Bluewave email" className="footer-icon" />
-                <p className="footer-text">bluewave.cleanings@gmail.com</p>
+                <img
+                  src={emailLogo}
+                  alt="Bluewave email"
+                  className="footer-icon"
+                />
+                <p className="footer-text">
+                  bluewave<wbr></wbr>.cleanings<wbr></wbr>@gmail.com
+                </p>
               </li>
               <li>
-                <img src={phoneLogo} alt="Bluewave phone number" className="footer-icon" />
+                <img
+                  src={phoneLogo}
+                  alt="Bluewave phone number"
+                  className="footer-icon"
+                />
                 <p className="footer-text">(825) 365 9214</p>
               </li>
             </ul>
           </Col>
         </Row>
 
-        <Row>
+        {/* <Row>
           <Col xs={12}>
             <hr className="mb-4 footer-text" />
             <div className="text-center">
@@ -84,6 +115,24 @@ export const BlueWaveFooter = () => {
                 {" "}
                 © {new Date().getFullYear()} BlueWave. All rights reserved.
               </p>
+            </div>
+          </Col>
+        </Row> */}
+
+        <Row className="d-flex justify-content-between align-items-center">
+          <hr className="mb-4 footer-text" />
+          <Col xs="auto">
+            <p className="mb-0 footer-text">
+              {" "}
+              © {new Date().getFullYear()} BlueWave. All rights reserved.
+            </p>
+          </Col>
+
+          {/* Contenedor para los dos elementos alineados a la derecha */}
+          <Col xs="auto">
+            <div className="d-flex gap-2">
+              <p className="mb-0 footer-text">Terms and conditions</p>
+              <p className="mb-0 footer-text">Privacy policy</p>
             </div>
           </Col>
         </Row>
