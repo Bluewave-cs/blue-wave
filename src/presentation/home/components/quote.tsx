@@ -2,7 +2,7 @@ import { Card, CardBody, Col, Container, Row } from "react-bootstrap";
 import { QuoteForm } from "./quote_form";
 import { Fragment } from "react/jsx-runtime";
 
-import quoteFormImage from "../../../assets/images/decorators/quote-form-image.png";
+import quoteFormImage from "../../../assets/images/decorators/quote-form-image.webp";
 
 import "../styles/quote.css";
 

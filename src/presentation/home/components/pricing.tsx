@@ -6,12 +6,12 @@ import { postConstructionServices } from "../../../core/constants/post_construct
 import { officeServices } from "../../../core/constants/office_services";
 import { commercialServices } from "../../../core/constants/commercial_services";
 
-import postConstructionIcon from "../../../assets/images/services/post-construction-cleaning.png";
-import officeIcon from "../../../assets/images/services/office-cleaning-variant.png";
-import commercialIcon from "../../../assets/images/services/commercial-cleaning.png";
+import postConstructionIcon from "../../../assets/images/services/post-construction-cleaning.webp";
+import officeIcon from "../../../assets/images/services/office-cleaning-variant.webp";
+import commercialIcon from "../../../assets/images/services/commercial-cleaning.webp";
 
-import lightBackgroundArrowIcon from "../../../assets/images/light-background-arrow.png";
-import darkBackgroundArrowIcon from "../../../assets/images/dark-background-arrow.png";
+import lightBackgroundArrowIcon from "../../../assets/images/light-background-arrow.webp";
+import darkBackgroundArrowIcon from "../../../assets/images/dark-background-arrow.webp";
 import { PricingCardVariant } from "./pricing_card_variant";
 
 export const Pricing = () => {

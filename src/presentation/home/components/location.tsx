@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap";
 
-import locationIcon from "../../../assets/images/location-icon.png";
+import locationIcon from "../../../assets/images/location-icon.webp";
 
 interface LocationProps {
   name: string;

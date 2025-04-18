@@ -1,5 +1,5 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-import navbarLogo from "../../../assets/images/logos/bluewave-navbar-logo.png";
+import navbarLogo from "../../../assets/images/logos/bluewave-navbar-logo.webp";
 
 export const BlueWaveNavbar = () => {
   return (

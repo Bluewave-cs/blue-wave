@@ -3,9 +3,9 @@ import { Container, Row } from "react-bootstrap";
 import { FeatureItem } from "./feature_item";
 
 import "../styles/features.css";
-import yearsOfExperience from "../../../assets/images/features/years-of-experience.png";
-import localtedInCalgary from "../../../assets/images/features/located-in-calgary.png";
-import fairPrices from "../../../assets/images/features/fair-pirces.png";
+import yearsOfExperience from "../../../assets/images/features/years-of-experience.webp";
+import localtedInCalgary from "../../../assets/images/features/located-in-calgary.webp";
+import fairPrices from "../../../assets/images/features/fair-pirces.webp";
 
 export const Features = () => {
   return (

@@ -2,7 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import "../styles/start.css";
 import { CustomButton } from "./button";
-import mainImage from "../../../assets/images/decorators/start-main.png";
+import mainImage from "../../../assets/images/decorators/start-main.webp";
 
 export const Start = () => {
   const handleClick = () => {

@@ -3,12 +3,12 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import "../styles/footer.css";
 
-import facebookIcon from "../../../assets/images/socials/facebook-icon.png";
-import linkedin from "../../../assets/images/socials/linkedin-icon.png";
-import instagramIcon from "../../../assets/images/socials/instagram-icon.png";
+import facebookIcon from "../../../assets/images/socials/facebook-icon.webp";
+import linkedin from "../../../assets/images/socials/linkedin-icon.webp";
+import instagramIcon from "../../../assets/images/socials/instagram-icon.webp";
 
-import emailLogo from "../../../assets/images/contact/email-white-icon.png";
-import phoneLogo from "../../../assets/images/contact/phone-white-icon.png";
+import emailLogo from "../../../assets/images/contact/email-white-icon.webp";
+import phoneLogo from "../../../assets/images/contact/phone-white-icon.webp";
 import { Fragment } from "react/jsx-runtime";
 import { TermsAndConditionsModal } from "./terms_and_conditions";
 import { PrivacyPolicyModal } from "./privacy_policy";

@@ -236,11 +236,11 @@ export const QuoteForm: React.FC = () => {
                   xs={12}
                   className="d-flex justify-content-center align-items-center mb-3"
                 >
-                  <ReCAPTCHA
+                  {/* <ReCAPTCHA
                     ref={recaptchaRef}
                     sitekey={recaptchaSiteKey}
                     onChange={hanldeCaptchaChange}
-                  />
+                  /> */}
                 </Col>
 
                 <Col

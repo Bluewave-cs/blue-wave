@@ -3,11 +3,11 @@ import { Col, Container, Row } from "react-bootstrap";
 import "../styles/contact_us.css";
 import { Location } from "./location";
 
-import ContactPhone from "../../../assets/images/contact/contact-phone.png";
-import EmailIcon from "../../../assets/images/contact/email-blue-icon.png";
-import PhoneIcon from "../../../assets/images/contact/phone-blue-icon-variant.png";
+import ContactPhone from "../../../assets/images/contact/contact-phone.webp";
+import EmailIcon from "../../../assets/images/contact/email-blue-icon.webp";
+import PhoneIcon from "../../../assets/images/contact/phone-blue-icon-variant.webp";
 
-import calgaryMap from "../../../assets/images/contact/calgary-map.png";
+import calgaryMap from "../../../assets/images/contact/calgary-map.webp";
 
 export const ContactUs = () => {
   return (
