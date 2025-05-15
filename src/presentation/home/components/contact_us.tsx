@@ -43,7 +43,7 @@ export const ContactUs = () => {
               </Col>
               <Col md={8} className="ps-md-3 text-center text-md-start">
                 <p className="fs-5 bluewave-text">
-                  bluewave<wbr></wbr>.cleanings<wbr></wbr>@gmail.com
+                  hello<wbr></wbr>@bluewave<wbr></wbr>-cleanings.com
                 </p>
               </Col>
             </Row>

@@ -112,7 +112,7 @@ export const BlueWaveFooter = () => {
                     className="footer-icon"
                   />
                   <p className="footer-text">
-                    bluewave<wbr></wbr>.cleanings<wbr></wbr>@gmail.com
+                    hello<wbr></wbr>@bluewave<wbr></wbr>-cleanings.com
                   </p>
                 </li>
                 <li>

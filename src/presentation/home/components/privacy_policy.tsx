@@ -83,7 +83,7 @@ export const PrivacyPolicyModal: React.FC<PrivacyPolicyModalProps> = ({
         <h6>Contact</h6>
         <p>
           For questions regarding this Privacy Policy, contact us at: Email:
-          bluewave.cleanings@gmail.com
+          hello@bluewave-cleanings.com
         </p>
       </Modal.Body>
 

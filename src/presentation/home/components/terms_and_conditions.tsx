@@ -79,7 +79,7 @@ export const TermsAndConditionsModal: React.FC<
         <h6>Contact</h6>
         <p>
           For questions about these Terms and Conditions, contact us at: Email:
-          bluewave.cleanings@gmail.com <br /> Phone: (825) 365 9214
+          hello@bluewave-cleanings.com <br /> Phone: (825) 365 9214
         </p>
       </Modal.Body>
 
